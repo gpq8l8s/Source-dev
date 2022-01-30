@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  /* Parent Element : scroll-snap-type, overflow-y, height */
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  scroll-snap-align: start; /* Child element */
+}
+.one {
+  background: rgb(36, 164, 138);
+}
+.two {
+  background: rgb(211, 79, 79);
+}
+.three {
+  background: rgb(67, 91, 175);
+}
+.four {
+  background: lightsalmon;
+}
