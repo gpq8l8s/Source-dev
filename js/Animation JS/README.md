@@ -14,5 +14,3 @@
 - Full Page Animation : fullPage plugIn
 
 ---
-
-<span style= "size : 2; color:grey"> Learned with the videos of Dev Ed </span>
