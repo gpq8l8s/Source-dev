@@ -8,6 +8,6 @@
 
 
 #### `stopPropagation()`
-!(/stopPtopagation.jpeg")
+![stopPropagation](/stopPtopagation.jpeg)
 
 > If I don't want my element does bubble everywhere through all the child element, can use `stopPropagation()`
